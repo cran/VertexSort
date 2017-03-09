@@ -1,4 +1,4 @@
-32fc7efd2898520e29c0edd6616d7236 *DESCRIPTION
+272b6b7937cb5adb4bc33e44301799b9 *DESCRIPTION
 6d00b840496b8deb2c71e387143ab6e6 *NAMESPACE
 bb27617d480f819a3fc4ea27efc8369a *R/Collapse_subgraph.R
 57eb6cc967c4cc2060bbe14515990a6f *R/Create_rand_g_with_preserving_in_degrees.R
@@ -19,10 +19,10 @@ d676a1cc17edda6b651952a448e65060 *R/odpr.R
 54f69729cd8b1125707b5da14078eb40 *R/print.vertex.sort.R
 bb6467df1412b6a86929dacbf648a9cd *R/sdpr.R
 613c97c11234ba2b2b26641a3a7a777b *R/summary.vertex.sort.R
-a091dce777e4a13c31506ef55dd5f546 *R/vertex.sort.R
+ac2cf95c9181464029428cd87b6a366e *R/vertex.sort.R
 466508c5f99179ef1a0a3fa40d285746 *data/interactions.rda
-c8a347e9d2049534493631f9f296b40d *man/VertexSort-package.Rd
-acb5e6ebecb37ab242edc2eb75b6ea42 *man/dpr.Rd
-39f7027f700eef479716f6c8a57ab6b8 *man/export.to.cytoscape.Rd
-5f124576813535f8f1b4c49e314ae66e *man/interactions.Rd
-03ce8c2ccff0faa1917141b51dd0b9e8 *man/vertex.sort.Rd
+faba328b3d076588ce655a1bb072cf87 *man/VertexSort-package.Rd
+ba32d003fdb70a8751b7db89978ec26f *man/dpr.Rd
+ae8e48cb73c7df67ed8f9f6b244b2fc8 *man/export.to.cytoscape.Rd
+ce647b9fb670550f1d2b357b8f7c113f *man/interactions.Rd
+51599729512861a59ce2b4a5001ca62b *man/vertex.sort.Rd

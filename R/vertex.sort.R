@@ -6,13 +6,15 @@ vertex.sort <- function(edges) {
   # Returns:
   #   vs_results: an object of class vertex.sort
 
-  if ( ncol(edges)!=2 | class(edges)!="data.frame" )
+  if ( class(edges)!="data.frame" || ncol(edges)!=2 )
     return("Error: first argument should be a data frame having 2 columns")
 
   names(edges) <- c("actor_id", "target_id")
   edges[,1]    <- as.character(edges[,1])
   edges[,2]    <- as.character(edges[,2])
   vs_results   <- apply.vertex.sort(edges)
+  if ( is.character(vs_results) )
+      return(vs_results)
 
   vs_results$call   <- match.call()
   class(vs_results) <- "vertex.sort"

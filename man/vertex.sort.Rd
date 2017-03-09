@@ -108,6 +108,9 @@
 }
 
 \examples{
+  ## load the VertexSort library
+  library(VertexSort)
+
   ## load interactions of the kinase-phosphatase network (kp-net)
   data("interactions")
 
